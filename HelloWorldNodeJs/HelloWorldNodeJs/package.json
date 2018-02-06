@@ -1,0 +1,12 @@
+{
+  "name": "hello-world-node-js",
+  "version": "0.0.0",
+  "description": "HelloWorldNodeJs",
+  "main": "app.js",
+  "author": {
+    "name": "shaig"
+  },
+  "devDependencies": {
+    "express-generator": "^4.15.5"
+  }
+}

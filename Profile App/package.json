@@ -1,0 +1,10 @@
+{
+  "name": "profile-app",
+  "version": "0.0.0",
+  "description": "Profile App",
+  "main": "app.js",
+  "author": {
+    "name": "shaig"
+  },
+  "devDependencies": {}
+}
