@@ -29,7 +29,7 @@ function getProfile(username) {
         });
 }
 
-const users = process.argv.slice(2);
+const users = process.argv.slice(2); //reads inputs from console
 users.forEach(getProfile);
 //const users = ["chalkers", "alenaholligan","shaiblaustien","davemcfarland"];
 
