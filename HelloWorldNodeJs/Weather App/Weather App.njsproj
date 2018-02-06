@@ -2,15 +2,15 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <Name>Profile App</Name>
-    <RootNamespace>Profile App</RootNamespace>
-    <ScriptArguments>C# shaiblaustien</ScriptArguments>
+    <Name>Weather App</Name>
+    <RootNamespace>Weather App</RootNamespace>
+    <ScriptArguments>new york us</ScriptArguments>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>69be6ca6-2ce0-475c-b196-35f3ee0192e8</ProjectGuid>
+    <ProjectGuid>8432f4da-b77a-4063-a67a-8a1bf8107f45</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>app.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
@@ -30,7 +30,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
-    <Compile Include="profile.js" />
+    <Compile Include="weather.js" />
+    <Content Include="api.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>

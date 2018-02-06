@@ -1,0 +1,9 @@
+{
+  "name": "weather-app",
+  "version": "0.0.0",
+  "description": "Weather App",
+  "main": "app.js",
+  "author": {
+    "name": "shaig"
+  }
+}
